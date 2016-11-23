@@ -87,7 +87,7 @@ void trocarElementoNFU(int valor, ListaNFU *index, int valorInicialEnvelheciment
 
 void acessarPaginaNFU(ListaNFU *index, int valorInicialEnvelhecimento)
 {
-    index->envelhecimento = index->envelhecimento | valorInicialEnvelhecimento;
+    index->envelhecimento = index->envelhecimento | valorInicialEnvelhecimento;//binary operator OR
 }
 
 ListaNFU * getPaginaVelha(ListaNFU *index, ListaNFU *paginaVelha)
